@@ -3,8 +3,9 @@ font-family: 'Playfair Display', serif;
 font-family: 'PT Serif', serif;
 margin: 0;
 }
-section{
+.one{
     display: flex;
+    margin-bottom: 50px;
 }
 .half-witdh{
     width: 50%;
@@ -15,7 +16,7 @@ margin-right: 60PX;
 margin-left: 50px;
 }
 .name-color{
-    color: rgb(250, 164, 3);
+    color: blueviolet;
 }
 .top{
     margin-top: 90px;
@@ -23,7 +24,7 @@ margin-left: 50px;
 }
 .anchor{
     text-decoration: none;
-    background-color: rgb(255, 166, 1);
+    background-color: blueviolet ;
     padding: 6px 15px;
     color: white;
     font-size: 7px;
@@ -31,10 +32,39 @@ margin-left: 50px;
 }
 .first{
     background-image: url(header-bg.png);
+   background-repeat: no-repeat;
+    
 }
 .top2{
     margin-top: 150px;
 }
 .two{
     background-image: url(biography-bg.png);
+}
+.text{
+    text-align: center;
+}
+.threw{
+    background-image: url(latest-work-bg.png);
+}
+.four{
+    text-align: center;
+    padding: 20px 270px;
+}
+.five{
+    text-align: center;
+    background-color: blueviolet;
+    height: 100px;
+    margin: 10px 220px ;
+    padding-top: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.six{
+    background-image: url(footer-bg.png);
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 50px;
 }
